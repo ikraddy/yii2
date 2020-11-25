@@ -1,0 +1,33 @@
+{
+  "name": "ikraddy/yii2",
+  "type": "yii2-extension",
+  "description": "iKraddy Yii2 extension.",
+  "keywords": [
+    "yii2",
+	  "ikraddy",
+    "ikraddy-yii2"
+  ],
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/ikraddy/yii2"
+  },
+  "authors": [
+    {
+      "name": "iKraddy",
+      "email": "ikraddy@qq.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.14"
+  },
+  "autoload": {
+    "psr-4": {
+      "ikraddy\\": ""
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
